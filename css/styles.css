@@ -3,62 +3,120 @@ header, main, footer {
 
 @media only screen and (max-width: 992px) {
   header, main, footer {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  nav .brand-logo {
+    font-size: 1.8em !important; }
+
+  .profile-img {
+    height: 140px !important;
+    width: 113px !important; } }
 * {
   font-family: 'Barlow Semi Condensed', sans-serif; }
 
 .padding {
-  height: 70px; }
+  height: 60px; }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.8); }
+.x-padding {
+  height: 100px; }
+
+body {
+  background-color: #F4F4F4; }
+
+a {
+  color: #062F4F; }
+
+p a:hover {
+  color: #EB8080; }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: rgba(255, 255, 255, 0.4); }
   nav .nav-wrapper > a {
-    color: #272822; }
+    color: #062F4F; }
 
 nav ul a {
-  color: #272822; }
+  color: #062F4F; }
 
 #hero-box {
   margin: auto;
-  width: 70%; }
-  #hero-box h4 {
-    color: #272822; }
+  width: 60%; }
+  #hero-box .chip {
+    background-color: #C0B283;
+    color: #F8F8F2;
+    font-size: 20px; }
 
 .profile-img {
   height: 160px;
-  width: 133px; }
+  width: 133px;
+  margin-right: -89px;
+  margin-top: 10px; }
 
-#projects {
-  margin: auto; }
-  #projects h2 {
-    color: #66D9EF;
-    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.6); }
-  #projects h4 {
-    color: #F92672;
-    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.6); }
+.hero-filter {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  box-shadow: 3px 3px 20px #D9D9D9; }
+  .hero-filter .chip {
+    margin-top: -43px;
+    margin-left: -51px; }
+  .hero-filter div, .hero-filter p {
+    font-size: 18px; }
+  .hero-filter h4 {
+    color: #062F4F;
+    font-size: 24px; }
 
-.card, .shoebox {
-  width: 330px;
-  margin: 32px; }
+#blush {
+  color: #EB8080; }
+
+blockquote {
+  font-size: 17px;
+  font-style: italic; }
+
+#projects .chip {
+  background-color: #C0B283;
+  color: #F8F8F2;
+  font-size: 20px; }
+#projects h4 {
+  color: #062F4F; }
+
+.card {
+  width: 64%;
+  margin: 50px auto 50px auto; }
+
+.card-content a {
+  color: #C0B283; }
+.card-content a:hover {
+  color: #EB8080; }
+
+.card-title {
+  color: #062F4F; }
 
 .glyph-sample {
   font-size: 60px;
-  margin: 10px; }
+  margin: 10px;
+  color: #000; }
 
 .glyph-sample:hover {
-  color: #FFE792; }
+  color: #EB8080; }
 
-#skills h3 {
-  color: #FD971F; }
+.icons {
+  width: 60%;
+  margin: auto; }
+
+.chip {
+  background-color: #C0B283;
+  color: #F8F8F2; }
+
+#dev {
+  margin-left: 12px; }
+
+#front {
+  margin-right: 12px; }
 
 #contact h3 {
   color: white; }
 
 .page-footer {
-  background-color: #FD971F; }
+  background-color: #373737; }
 
 .contact-icon {
   font-size: 50px;

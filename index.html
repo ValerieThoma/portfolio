@@ -9,6 +9,7 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
 	  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
 	  crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="scripts/scripts.js"></script>
 	<script src="https://use.fontawesome.com/6251bfc733.js"></script>
   
@@ -26,6 +27,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"/>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="css/font-awesome.css"/>   -->
@@ -33,10 +36,13 @@
 
 </head>
 <body>
-<!-- <header> -->
+
+	<header>
+	</header>
+<!-- <NAV> -->
     <div class="navbar-fixed scrollspy">
         <nav>
-            <div class="nav-wrapper"> <a href="#!" class="brand-logo center">valerie jane thoma</a>
+            <div class="nav-wrapper"> <a href="#" class="brand-logo center">valerie jane thoma</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#hero-box">about</a></li>
@@ -47,38 +53,48 @@
             </div>
         </nav>
     </div>
-   <!-- Move the sidenav outside of .navbar-fixed -->
     <ul class="side-nav" id="mobile-demo">
         <li><a href="#hero-box">about</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="#skills">skills</a></li>
         <li><a href="#contact">contact</a></li>
     </ul>
-<!-- </header> -->
+<!-- </nav> -->
 
+<!-- ABOUT -->
 
-
-	<div class="padding"></div>
+	<div class="x-padding"></div> <!-- add padding -->
 	<div id="hero-box">
-		<div class="center-align flex-text">
-			<h4>Greetings and Salutations!</h4>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex possimus, a velit nesciunt rem illum cum rerum asperiores molestiae dolorem itaque quia earum quas. Unde ducimus voluptatibus hic distinctio iste id consectetur optio deleniti laborum dolorum, blanditiis eos eius necessitatibus soluta maxime quaerat voluptas, ea. Molestiae adipisci illo neque odit aliquam iste nesciunt impedit, velit alias quam eos eligendi nulla. Error similique quos perspiciatis tempora doloremque nostrum aperiam eveniet rerum,<span class="right"><img src="images/profile.png" class="profile-img z-depth-3 circle"/></span> at accusamus id et sequi vitae esse recusandae iure ex, totam sint minima eum libero. Repudiandae reprehenderit repellendus sint delectus, culpa et modi. Mollitia modi, beatae iste nostrum vel accusamus odio dolore. Magnam aliquid perferendis est fugit dicta facere, dolore nam minima. Autem impedit, exercitationem incidunt, tempore totam modi itaque velit aliquid ratione, architecto numquam consequatur magni, quidem voluptas quo quos cupiditate nihil possimus! Repellendus velit, voluptates dolore, ab laborum earum aspernatur officia odio nulla ducimus aliquid corporis enim consequatur architecto repudiandae deserunt assumenda minus quibusdam! Adipisci eos nulla odio cumque veniam sit illum laudantium earum quae enim a id optio recusandae repudiandae quisquam officiis, ullam sequi 
-			</p>
-		</div>
-	</div>	
+		<div class="padding"></div> <!-- add padding -->
+			<div class="hero-filter center-align flex-text">
+				<div class="left chip z-depth-1">
+					About			
+				</div>
+					<blockquote>
+						"The world I live in continues to grow and change, it would be impolite to not reciprocate."
+					</blockquote>
+					<p>Until recently <span id="blush">this.state</span> was just Georgia, <span id="blush">Java</span> was something I poured for people, a <span id="blush">regular expression</span> was, “Do you have any questions about the menu?”, and <span id="blush">“kill the server”</span> was something I would take personally.<span class="right"><img src="images/profile.png" class="profile-img z-depth-2 circle"/></span> </p>  
+					<p>I'm on a journey today that began many yesterdays ago in a classroom at Georgia State University. There I wrote a browser game about two off duty crime-fighting pets, <i>The Adventures of Pud and Patti</i>. I didn't know it then, but I would find my way back to a <a href="https://www.digitalcrafts.com/">classroom</a> and this would be one of my proudest choices.</p>
+					<p>The most valuable outcome of developing new skills is that invariably your perspective will grow too. The unique world that software development has exposed me to is one where I am afforded opportunities to draw from my previous background in Criminal Justice and Film and Television. Technology provides instances of collaboration, creativity, caritas and just the right amount of java pouring.</p>
+					<h4>Hi, I'm Valerie and I'm a software developer.</h4>
+			</div>
+	</div> <!-- end about -->
+
 
 
 <!-- PROJECTS -->
+	<div class="x-padding"></div> <!-- add padding -->
 	<div id="projects" class="section scrollspy">
-		<h2 class="center-align">Projects</h2>
-			<div class="card shoebox" style="display:inline-block;">
-				<h4 id="shoebox" class="center-align ">Shoebox Project</h4>
+		<div class="center-align flex-text">
+			<div class="chip z-depth-1">Featured Projects</div>
+		</div>
+			<div class="card horizontal shoebox z-depth-5">
+				<!-- <h4 id="shoebox" class="center-align ">Shoebox Project</h4> -->
 				<div class="card-image waves-effect waves-block waves-light">
 				<img class="activator" src="images/shoebox.png">
 				</div>
 			<div class="card-content">
-			<span class="card-title activator grey-text text-darken-4">Shoebox Project<i class="material-icons right">more_vert</i></span>
+			<span class="card-title activator">Shoebox Project<i class="material-icons right">more_vert</i></span>
 			<p><a href="https://github.com/ValerieThoma/shoebox-project">Github Repository</a></p>
 			<p><a href="https://github.com/ValerieThoma/S.Miles">Live Site</a></p>
 			</div>
@@ -88,13 +104,13 @@
 			<P>The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. We set up a site for the company, including sign-up forms, login capabilities, an interactive map, and various pages to navigate to on the site.</p>
 			</div>
 			</div>
-			<div class="card menuize" style="display:inline-block;">
-				<h4 id="shoebox" class="center-align ">Menuize</h4>
+			<div class="card horizontal menuize z-depth-5">
+				<!-- <h4 id="shoebox" class="center-align ">Menuize</h4> -->
 				<div class="card-image waves-effect waves-block waves-light">
 				<img class="activator" src="images/menuize.png">
 				</div>
 			<div class="card-content">
-			<span class="card-title activator grey-text text-darken-4">Menuize<i class="material-icons right">more_vert</i></span>
+			<span class="card-title activator">Menuize<i class="material-icons right">more_vert</i></span>
 			<p><a href="https://github.com/ValerieThoma/mealprep">Github Repository</a></p>
 			<p><a href="https://github.com/ValerieThoma/S.Miles">Live Site</a></p>
 			</div>
@@ -104,13 +120,13 @@
 			Empower the way you eat!</p>
 			</div>
 			</div>
-			<div class="card smiles" style="display:inline-block;">
-				<h4 id="shoebox" class="center-align ">S.Miles</h4>
+			<div class="card horizontal smiles z-depth-5">
+				<!-- <h4 id="shoebox" class="center-align ">S.Miles</h4> -->
 				<div class="card-image waves-effect waves-block waves-light">
 				<img class="activator" src="images/smiles.png">
 				</div>
 			<div class="card-content">
-			<span class="card-title activator grey-text text-darken-4">S.Miles<i class="material-icons right">more_vert</i></span>
+			<span class="card-title activator">S.Miles<i class="material-icons right">more_vert</i></span>
 			<p><a href="https://github.com/ValerieThoma/S.Miles">Github Repository</a></p>
 			<p><a href="https://github.com/ValerieThoma/S.Miles">Live Site</a></p>
 			</div>
@@ -126,21 +142,51 @@
 <!-- SKILLS	 -->
 	<div id="skills" class="skills section scrollspy">
 		<div class="row">
-			<h3 class="center-align"></h3>
-			<div class="icons center">
-				<span class="glyph-sample"><i class="icon-javascript"></i></span>
-				<span class="glyph-sample"><i class="icon-nodejs"></i></span>
-				<span class="glyph-sample"><i class="icon-reactjs"></i></span>
-				<span class="glyph-sample"><i class="icon-python"></i></span>
-				<span class="glyph-sample"><i class="icon-jquery"></i></span>
-				<span class="glyph-sample"><i class="icon-mysql"></i></span>
-				<span class="glyph-sample"><i class="icon-apache"></i></span>
-				<span class="glyph-sample"><i class="icon-npm"></i></span>
-				<span class="glyph-sample"><i class="icon-css3"></i></span>
-				<span class="glyph-sample"><i class="icon-html5"></i></span>
-			</div>			
+			<div class="center-align">
+				<div id="front" class="chip grow z-depth-1">
+	    			Front-end			
+	  			</div>
+	  			<div id="back" class="chip grow z-depth-1">
+	    			Back-end			
+	  			</div>	
+	  			<div id="dev" class="chip grow z-depth-1">
+	    			Development Tools			
+	  			</div>
+	  		</div>
+	  		<div class="padding"></div> <!-- add padding -->
+			<div class="icons grid">
+				<a href="https://www.python.org" target="blank" class="element-item back"><span class="glyph-sample element-item back"><i class="icon-python"></i></span></a>
+				<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank" class="element-item front"><span class="glyph-sample"><i class="icon-javascript"></i></span></a>
+				<a href="https://nodejs.org/en/" target="blank" class="element-item back"><span class="glyph-sample"><i class="icon-nodejs"></i></span></a>
+				<a href="https://jquery.com/" target="blank" class="element-item front"><span class="glyph-sample"><i class="icon-jquery"></i></span></a>
+				<a href="https://reactjs.org/" target="blank" class="element-item front"><span class="glyph-sample"><i class="icon-reactjs"></i></span></a>
+				<a href="https://www.mysql.com/" target="blank" class="element-item back"><span class="glyph-sample"><i class="icon-mysql"></i></span></a>
+				<a href="https://www.apache.org/" target="blank" class="element-item back"><span class="glyph-sample"><i class="icon-apache"></i></span></a>
+				<a href="https://aws.amazon.com/" target="blank" class="element-item dev"><span class="glyph-sample"><i class="devicon-amazonwebservices-original plain"></i></span></a>
+				<!-- <br>	 -->
+				<a href="https://www.ubuntu.com/" target="blank" class="element-item dev"><span class="glyph-sample"><i class="devicon-ubuntu-plain"></i></span></a>
+				<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="blank" class="element-item front"><span class="glyph-sample"><i class="icon-html5"></i></span></a>
+				<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="blank" class="element-item front"><span class="glyph-sample"><i class="icon-css3"></i></span></a>
+				<a href="https://expressjs.com/" target="blank" class="element-item back"><span class="glyph-sample"><i class="devicon-express-original"></i></span></a>
+				<a href="https://www.npmjs.com/" target="blank" class="element-item back"><span class="glyph-sample"><i class="icon-npm"></i></span></a>
+				<a href="https://babeljs.io/" target="blank" class="element-item front"><span class="glyph-sample"><i class="devicon-babel-plain plain"></i></span></a>
+				<a href="https://github.com/" target="blank" class="element-item dev"><span class="glyph-sample"><i class="devicon-github-plain"></i></span></a>
+				<a href="http://sass-lang.com/" target="blank" class="element-item front"><span class="glyph-sample"><i class="devicon-sass-original"></i></span></a>
+				<a href="https://jasmine.github.io/" target="blank" class="element-item dev"><span class="glyph-sample"><i class="devicon-jasmine-plain-wordmark"></i></span></a>
+				<a href="https://www.sourcetreeapp.com/" target="blank" class="element-item dev"><span class="glyph-sample"><i class="devicon-sourcetree-plain-wordmark"></i></span></a>
+</span>
+
+			</div>		
 		</div>
-		<div class="padding"></div>
+			<div class="center-align">
+					<div id="all" class="chip grow z-depth-1">
+		    			Refresh			
+		  			</div>
+		  	</div>
+		<div class="padding"></div> <!-- add padding -->
+	
+
+
 
 	</div> <!-- end skills -->
 
@@ -148,22 +194,24 @@
 
 	<footer class="page-footer">
         <div  id="contact" class="container section scrollspy">
+        	<div class="padding"></div> <!-- add padding -->
             <div class="center-align flex-text">
           		<h3>Contact Me</h3>
           		<p>Let's stay in touch</p>
           	</div>	
           	<div class="row center-align">	
                 <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Email" href="mailto:valeriejanethoma@gmail.com"><i class="grow fa fa-envelope" aria-hidden="true"></i></a></span>
-                <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github" href="https://github.com/ValerieThoma"><i class="grow fa fa-github-square" aria-hidden="true"></i></a></span>
-                <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Linkedin" href="http://linkedin.com/in/valeriejanethoma/"><i class="grow fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+                <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github" href="https://github.com/ValerieThoma" target="blank"><i class="grow fa fa-github-square" aria-hidden="true"></i></a></span>
+                <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Linkedin" href="http://linkedin.com/in/valeriejanethoma/" target="blank"><i class="grow fa fa-linkedin-square" aria-hidden="true"></i></a></span>
                 <span><a class="contact-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Resume" href="images/valeriethoma.pdf" target="blank"><i class="grow fa fa-file-pdf-o" aria-hidden="true"></i></a></span>
             </div>
+            <div class="x-padding"></div> <!-- add padding -->
 	        <div class="center-align copyright">
 	        	<span>© 2017 Valerie Jane Thoma</span>
 	        </div>
-    	</div>
+    	</div> <!-- end contact -->
         
-    </footer>
+    </footer> <!-- end footer -->
 
 	
 

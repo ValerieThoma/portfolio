@@ -1,15 +1,12 @@
 ///////////VARIABLES/////////////////////////
 
-$myPink: #F92672;
-$myYellow:#FFE792; 
-$myBlue:#66D9EF;
-$myGreen:#A6E22E;
-$myOrange:#FD971F;
-$myPurple:#AE81FF;
-$myGrey:#75715E;
+$ink:#062F4F;
 $myWhite:#F8F8F2;
-$myBlack:#272822;
-$Yellow2:rgba(255,231,146,0.8);
+$charcoal:#373737;
+$gold: #C0B283;
+$blush: #EB8080;
+$eggplant: #49274A;
+$aluminium: #D9D9D9;
 
 header, main, footer {
   padding-left: 300px;
@@ -19,74 +16,138 @@ header, main, footer {
   header, main, footer {
     padding-left: 0;
   }
+  nav .brand-logo{
+  	font-size: 1.8em !important;
+  }
+  .profile-img{
+	height:140px !important;
+	width:113px !important;
+}
 }
 *{
 	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .padding{
-	height: 70px;
+	height: 60px;
+}
+.x-padding{
+	height: 100px;
 }
 
-.card{
-	background-color: rgba(255,255,255,0.8);
+body{
+	background-color: #F4F4F4;
+}
+a{
+	color: $ink;
+}
+p a:hover{
+	color: $blush;
 }
 
 /////////////////NAV////////////////////////
 nav{
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.4);
+	// background-color: $eggplant;
 	.nav-wrapper >a{
-		color: $myBlack;
+		color: $ink;
 	}
 } 
 nav ul a{
-	color: $myBlack;
+	color: $ink;
 }
 
 ///////////////HERO/////////////////////////
 #hero-box{
 	margin: auto;
-	width: 70%;	
-	h4{
-		color: $myBlack;
-		// text-shadow: 0px .5px .5px rgba(0, 0, 0, 0.6)
+	width: 60%;	
+	.chip{
+		background-color: $gold;
+		color: $myWhite;
+		font-size: 20px;
 	}
 }
 .profile-img{
 	height:160px;
 	width:133px;
+	margin-right: -89px;
+	margin-top: 10px;
+}
+.hero-filter{
+	background-color: rgba(255,255,255,0.4);
+	padding: 30px;
+	box-shadow:3px 3px 20px $aluminium;
+	.chip{
+		margin-top: -43px;
+		margin-left: -51px;
+	}
+	div, p{
+		font-size: 18px;
+	}
+	h4{
+		color: $ink;
+		font-size: 24px;
+	}
+}
+#blush{
+	color: $blush;
+}
+blockquote{
+	font-size: 17px;;
+	font-style: italic;
 }
 
 
 ////////////////PROJECTS///////////////////////
 #projects{
-	margin: auto;
-	h2{
-		color: $myBlue;
-		text-shadow: 0px .5px .5px rgba(0, 0, 0, 0.6)
+	.chip{
+		background-color: $gold;
+		color: $myWhite;
+		font-size: 20px;
 	}
 	h4{
-		color: $myPink;
-		text-shadow: 0px .5px .5px rgba(0, 0, 0, 0.6)
+		color: $ink;
 	}
 }
-.card, .shoebox{
-		width: 330px;
-		margin: 32px;
+.card{
+	width: 64%;
+	margin: 50px auto 50px auto;
+}
+.card-content{
+	a{
+		color: $gold;
 	}
+	a:hover{
+		color: $blush;
+	}
+} 
+.card-title{
+	color: $ink;
+}
 
 ////////////////SKILLS/////////////////////////
 .glyph-sample{
 	font-size: 60px;
 	margin: 10px;
+	color: #000;
 }
 .glyph-sample:hover { 
-	color: $myYellow;
+	color: $blush;
 }
-#skills{
-	h3{
-		color: $myOrange;
-	}
+.icons{
+	width: 60%;
+	margin: auto;
 }
+.chip{
+	background-color: $gold;
+	color: $myWhite;
+}
+#dev{
+	margin-left: 12px;
+}
+#front{
+	margin-right: 12px;
+}
+
 //////////////////CONTACT/////////////////////////
 #contact{
 	h3{
@@ -95,7 +156,7 @@ nav ul a{
 }
 //////////////////FOOTER///////////////////////////
 .page-footer{
-	background-color: $myOrange;
+	background-color: $charcoal;
 }
 .contact-icon{
 	font-size: 50px; 
@@ -114,6 +175,7 @@ nav ul a{
 .container{
 	margin: 0;
 }
+
 
 
 
