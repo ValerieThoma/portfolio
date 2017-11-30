@@ -38,7 +38,7 @@ body{
 	background-color: #F4F4F4;
 }
 a{
-	color: $ink;
+	color: $blush;
 }
 p a:hover{
 	color: $blush;
@@ -88,9 +88,9 @@ nav ul a{
 		font-size: 24px;
 	}
 }
-#blush{
-	color: $blush;
-}
+// #blush{
+// 	color: $blush;
+// }
 blockquote{
 	font-size: 17px;;
 	font-style: italic;
