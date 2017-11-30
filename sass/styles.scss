@@ -37,11 +37,11 @@ header, main, footer {
 body{
 	background-color: #F4F4F4;
 }
-p{
-	a{
-		color: $blush !important;
-	}
+
+a{
+	color: $blush !important;
 }
+
 
 /////////////////NAV////////////////////////
 nav{
@@ -92,7 +92,9 @@ blockquote{
 	font-size: 17px;;
 	font-style: italic;
 }
-
+#link{
+	color: $blush;
+}
 
 ////////////////PROJECTS///////////////////////
 #projects{

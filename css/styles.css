@@ -23,7 +23,7 @@ header, main, footer {
 body {
   background-color: #F4F4F4; }
 
-p a {
+a {
   color: #EB8080 !important; }
 
 nav {
@@ -64,6 +64,9 @@ nav ul a {
 blockquote {
   font-size: 17px;
   font-style: italic; }
+
+#link {
+  color: #EB8080; }
 
 #projects .chip {
   background-color: #C0B283;
