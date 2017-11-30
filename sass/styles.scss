@@ -38,8 +38,10 @@ body{
 	background-color: #F4F4F4;
 }
 
-a{
-	color: $blush !important;
+p{
+	a{
+		color: $blush !important;
+	}
 }
 
 
@@ -93,7 +95,7 @@ blockquote{
 	font-style: italic;
 }
 #link{
-	color: $blush;
+	color: $blush !important;
 }
 
 ////////////////PROJECTS///////////////////////
