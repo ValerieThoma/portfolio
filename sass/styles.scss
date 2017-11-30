@@ -37,8 +37,10 @@ header, main, footer {
 body{
 	background-color: #F4F4F4;
 }
-a{
-	color: $blush !important;
+p{
+	a{
+		color: $blush !important;
+	}
 }
 
 /////////////////NAV////////////////////////
