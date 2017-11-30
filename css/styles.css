@@ -24,7 +24,7 @@ body {
   background-color: #F4F4F4; }
 
 a {
-  color: #EB8080; }
+  color: #EB8080 !important; }
 
 nav {
   background-color: rgba(255, 255, 255, 0.4); }
