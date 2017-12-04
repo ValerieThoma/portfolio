@@ -1,6 +1,10 @@
-header, main, footer {
-  padding-left: 300px; }
+@media only screen and (min-width: 1350px) {
+  .glyph-sample {
+    font-size: 60px !important; }
 
+  .icons {
+    width: 40% !important;
+    margin: auto; } }
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; }
@@ -8,9 +12,36 @@ header, main, footer {
   nav .brand-logo {
     font-size: 1.8em !important; }
 
+  #mobile-demo li, #mobile-demo a {
+    font-size: 40px;
+    margin: 20px; }
+
+  #hero-box {
+    width: 78% !important; }
+
+  .hero-filter div, .hero-filter p {
+    font-size: 14px !important; }
+  .hero-filter h4 {
+    font-size: 20px !important; }
+
+  .glyph-sample {
+    font-size: 40px !important; }
+
+  .icons {
+    width: 90% !important;
+    margin: auto; }
+
+  .contact-icon {
+    font-size: 20px;
+    color: white;
+    margin: 10px; }
+
   .profile-img {
     height: 140px !important;
     width: 113px !important; } }
+header, main, footer {
+  padding-left: 300px; }
+
 * {
   font-family: 'Barlow Semi Condensed', sans-serif; }
 
@@ -22,9 +53,6 @@ header, main, footer {
 
 body {
   background-color: #F4F4F4; }
-
-p a {
-  color: #EB8080 !important; }
 
 nav {
   background-color: rgba(255, 255, 255, 0.4); }
@@ -66,6 +94,9 @@ blockquote {
   font-style: italic; }
 
 #link {
+  color: #EB8080 !important; }
+
+p a {
   color: #EB8080 !important; }
 
 #projects .chip {
