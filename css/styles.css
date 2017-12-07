@@ -20,6 +20,9 @@
   .icons {
     width: 90% !important; }
 
+  #contact {
+    margin: auto !important; }
+
   .contact-icon {
     font-size: 20px;
     color: white;
