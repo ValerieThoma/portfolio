@@ -5,14 +5,25 @@
   .icons {
     width: 40% !important;
     margin: auto; } }
+@media only screen and (max-width: 789px) {
+  #contact {
+    margin: auto !important; }
+
+  footer {
+    padding: 0 !important; }
+
+  .hero-filter {
+    margin: auto; } }
 @media only screen and (max-width: 450px) {
   #hero-box {
     width: 78% !important; }
 
-  .hero-filter div, .hero-filter p {
-    font-size: 14px !important; }
-  .hero-filter h4 {
-    font-size: 20px !important; }
+  .hero-filter {
+    margin: auto; }
+    .hero-filter div, .hero-filter p {
+      font-size: 14px !important; }
+    .hero-filter h4 {
+      font-size: 20px !important; }
 
   .glyph-sample {
     font-size: 40px !important; }
