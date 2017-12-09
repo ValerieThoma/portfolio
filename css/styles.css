@@ -40,7 +40,10 @@
     margin: 10px; }
 
   footer {
-    padding: 0 !important; } }
+    padding: 0 !important; }
+
+  #hype {
+    font-size: 12px; } }
 @media only screen and (max-width: 992px) {
   header, main, footer {
     padding-left: 0; }
