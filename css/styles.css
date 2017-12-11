@@ -133,6 +133,9 @@ blockquote {
 p a {
   color: #EB8080 !important; }
 
+blockquote {
+  height: 100px; }
+
 #projects .chip {
   background-color: #C0B283;
   color: #F8F8F2;
