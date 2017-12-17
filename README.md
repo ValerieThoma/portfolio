@@ -17,7 +17,7 @@ This is a working portfolio for Valerie Jane Thoma. This project will be updated
 
 ## Authors
 
-* **Valerie Jane Thoma** -  [valeriethoma.com](https://valeriethoma.com)
+* **Valerie Jane Thoma** -  [valeriethoma.com](http://valeriethoma.com)
 
 
 ## Acknowledgments
@@ -27,5 +27,5 @@ This is a working portfolio for Valerie Jane Thoma. This project will be updated
 * Atlanta Tech Village - *free beer*
 
 ```
-There *might* be an easter egg? 
+easter egg? 
 ```
